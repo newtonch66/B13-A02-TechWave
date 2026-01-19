@@ -163,19 +163,71 @@
   background-color: #412567;
 }
 
-.why-choose h2{
-  text-align: center;
-  padding-top: 126px;
-  color: #FFFFFF;
-  font-size: 3rem;
-  font-weight: 600;
+.choose-part-one{
+  display: flex;
 }
-.choose-techwave{
-  display: grid;
+.container-left{
+  width: 50%;
+
+}
+.container-right{
+  width: 50%;
+}
+
+.container-one{
+  background-color: #00FF88;
+  padding: 70px 20px;
+  width: 80%;
+  margin: auto;
+}
+.container-two{
+  background-color: #00FF88;
+  padding: 70px 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.container-three{
+  background-color: #00FF88;
+  padding: 70px 20px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+/* Featured Episodes */
+
+.episodes{
   background-color: #230E3D;
-  gap: 30px;
-  grid-template-areas:
-  "container-one  container-two container-two container-two" 
-  
-  ;
+  color: #FFFFFF;
 }
+.episodes h1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 40px;
+  
+}
+.featured{
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+iframe{
+  border-radius: 10px;
+}
+.featured-one, .featured-two, .featured-three{
+  width: 380px;
+  padding: 20px;
+  background-color: #412567;
+  border-radius: 10px;
+}
+.minit{
+  color: #00FF88;
+  padding-top: 10px;
+}
+
