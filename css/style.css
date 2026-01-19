@@ -47,6 +47,30 @@
 }
 
 /* hero section style */
-.hero img{
+.hero{
+  background: url('../assets/hero-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  padding: 60px 0px;
+  width: 100%;
+}
+
+.hero-img{
+  position: relative;
+  margin-left: 40%;
+}
+.hero-img-1{
+  position: absolute;
+  top: 30%;
+  left: 12%;
+}
+.last{
+  padding-top: 40px;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  
   
 }
