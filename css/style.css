@@ -159,40 +159,49 @@
 }
 
 /* Why Choose TechWave */
-.why-choose{
+main{
+  margin: 0;
+  background-color: #230E3D;
+}
+.container{
+  color: #FFFFFF;
+  max-width: 1200px;
+  margin: 0 auto; 
+  background-color: #230E3D;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px) 50px 50px;
+}
+#one{
+  padding: 30px;
+  padding-top: 80px;
+  grid-row: span 2;
+  border-radius: 20px;
+}
+#two{
+  padding: 30px;
+  border-radius: 20px;
+  grid-column: span 2;
+}
+#three{
+  padding: 30px;
+  border-radius: 20px;
+  grid-column: span 2;
+
+}
+#four{
+  padding: 30px;
+  border-radius: 20px;
+  grid-column: span 2;
+}
+#five{
+  padding: 30px;
+  grid-column: span 1;
+  border-radius: 20px;
+}
+.box{
   background-color: #412567;
-}
-
-.choose-part-one{
-  display: flex;
-}
-.container-left{
-  width: 50%;
-
-}
-.container-right{
-  width: 50%;
-}
-
-.container-one{
-  background-color: #00FF88;
-  padding: 70px 20px;
-  width: 80%;
-  margin: auto;
-}
-.container-two{
-  background-color: #00FF88;
-  padding: 70px 20px;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 20px;
-}
-.container-three{
-  background-color: #00FF88;
-  padding: 70px 20px;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 20px;
 }
 
 
@@ -288,11 +297,6 @@ iframe{
  background-position: center;
   
 }
-/* .footer-head h1{
-  display: flex;
-  gap: 80px; 
-  justify-content: center;
-} */
 .footer-icon{
   padding-top: 180px;
   text-align: center;
@@ -300,7 +304,7 @@ iframe{
   
 }
 .footer-heading-text{
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   font-size: 3rem;
   font-weight: 700;
 }
