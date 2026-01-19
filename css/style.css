@@ -231,3 +231,45 @@ iframe{
   padding-top: 10px;
 }
 
+
+/* meet the host section style */
+.host-title{
+  text-align: center;
+  padding-top: 120px;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.host{
+  background-color: #230E3D;
+}
+.host-part{
+  display: flex;
+  max-width: 1200px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #412567;
+  padding: 40px;
+  border-radius: 20px;
+}
+.host-img{
+  padding-right: 30px;
+}
+.host-alex{
+  width: 840px;
+  color: #FFFFFF;
+}
+
+.host-alex h2{
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.host-alex p{
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
