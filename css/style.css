@@ -12,96 +12,41 @@
   font-weight: <weight>;
   font-style: normal;
 }
-/* shared style */
-
-
-
 /* header section style */
-.navbar{
-    
-    display: flex;
-    justify-content: space-between;
-    background-color: #191344;
-    padding: 16px 200px;
-    align-items: center;
+.nav-item{
+  display: flex;
+  background-color: #412567;
+  justify-content: space-between;
+  padding: 16px 200px;
+  align-items: center;
+  color: #FFFFFF;
+  
+  
 }
-
-
-.nav-menu{
-    display: flex;
-    list-style: none;
-    gap: 70px;
-    font-weight: 400;
-    font-size: 1rem;  
+.nav-link{
+  display: flex;
+  list-style: none;
+  gap: 30px;
 
 }
-
-.nav-item a{
-     text-decoration: none;
-     color: #FFFFFF;
+.nav-link a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
 }
-
 .btn{
-    font-weight: 600px;
-    font-size: 1rem;
-    width: 135px;
-    height: 44px;
-    border-radius: 30px;
-    border: none;
-    background-image: linear-gradient(90deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  width: 135px;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: none;
+  background-image: linear-gradient(90deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
 }
 
-.banner{
-    background:  url(../assets/microphone.png), url(../assets/hero-circle.png),url(../assets/hero-bg.png);
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 500px;
-}
-
-/* about the podcast section style */
-.podcast {
-    background-color: #1A0B2E;
-    color: #FFFFFF;
-    
-}
-.pod-heading{
-    max-width: 1200px;
-    margin: 0px auto;
-    text-align: center;
-
-}
-.pod-heading p{
-    font-weight: 400;
-    font-size: 1rem;
-
-}
-.heading{
-    font-weight: 700;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    padding-top: 50px;
-}
-
-
-.podcast-item{
-    padding-top: 160px;
-    max-width: 1200px;
-    margin: 0px auto;
-    justify-content: center;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    padding-bottom: 120px;
-}
-
-.item-heading h3{
-    font-weight: 900;
-    font-size: 3rem;
-    color: #00FF88;
-    padding-bottom: 20px;
-}
-.item-heading p{
-    font-weight: 400;
-    font-size: 1rem;
-    
+/* hero section style */
+.hero img{
+  
 }
