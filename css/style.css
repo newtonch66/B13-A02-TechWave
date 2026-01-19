@@ -35,6 +35,14 @@
   font-size: 1rem;
   font-weight: 500;
 }
+.logo{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+
+
 .btn{
   width: 135px;
   border-radius: 20px;
@@ -309,7 +317,9 @@ iframe{
   font-weight: 700;
 }
 .wave{
-  color: yellow;
+ background: linear-gradient(90deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .footer-icon a {
   text-decoration: none;
@@ -321,3 +331,150 @@ iframe{
   padding-top: 30px;
 
  }
+
+ /* Media Quary Section 576 */
+
+ @media screen and (max-width: 576px) {
+  /* navbar */
+  .nav-item {
+    flex-direction: column;
+    padding: 16px 20px;
+    gap: 15px;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* hero section */
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .hero-img {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-img img {
+    width: 220px;
+  }
+
+  .hero-img-1 {
+    top: 20%;
+    left: 40%;
+  }
+
+  .hero-img-1 img {
+    width: 100px;
+  }
+
+  .last h2 {
+    font-size: 2.2rem;
+  }
+
+  .last p {
+    font-size: 0.9rem;
+  }
+
+  .last-btn,
+  .last-btn-tow {
+    width: 25%;
+    margin-top: 10px;
+  }
+
+  /* about podcast section */
+  .about-podcast p {
+    padding: 0 20px 40px;
+  }
+
+  .podcast-deatis {
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+
+  .podcast-deatis p {
+    padding-bottom: 40px;
+  }
+
+  /* why choose */
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 20px;
+  }
+
+  #one,
+  #two,
+  #three,
+  #four,
+  #five {
+    grid-column: span 1;
+    grid-row: auto;
+  }
+
+  /* feature episodes */
+  .episodes h1 {
+    font-size: 2.2rem;
+    padding-top: 80px;
+  }
+
+  .featured {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .featured-one,
+  .featured-two,
+  .featured-three {
+    width: 100%;
+  }
+
+  iframe {
+    height: 200px;
+  }
+
+ /* host section */
+  .host-part {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-img {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .host-img img {
+    width: 220px;
+  }
+
+  .host-alex {
+    width: 100%;
+  }
+
+  /* footer section */
+  .footer-head {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .footer-icon {
+    padding-top: 120px;
+  }
+
+  .footer-heading-text {
+    font-size: 2rem;
+  }
+
+}
