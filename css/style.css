@@ -15,7 +15,7 @@
 /* header section style */
 .nav-item{
   display: flex;
-  background-color: #412567;
+  background-color: #230E3D;
   justify-content: space-between;
   padding: 16px 200px;
   align-items: center;
@@ -71,6 +71,111 @@
   max-width: 550px;
   margin: 0 auto;
   text-align: center;
+  color: #FFFFFF;
+}
+.last h2{
+  font-size: 3.75rem;
+  font-weight: 800;
+
+}
+.last p{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.last-btn{
+  color: #FFFFFF;
+  margin-top: 20px;
+  width: 201px;
+  padding: 20px 12px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  background-image: linear-gradient(90deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+}
+
+.last-btn-tow{
+  background: none;
+  border: 1px solid #00FF88;
+  width: 147px;
+  border-radius: 30px;
+  padding: 20px;
+  color: #00FF88;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+/* About The Podcast section style */
+.podcast{
+  background-color: #230E3D;
+
   
+
+}
+.about-podcast{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+
+}
+.about-podcast h2{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.about-podcast p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-bottom: 80px;
+
+}
+
+.podcast-deatis{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 80px;
   
+}
+
+.podcast-deatis h1{
+  padding-top: 80px;
+  color: #00FF88;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.podcast-deatis p{
+   font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding-bottom: 156px;
+}
+
+/* Why Choose TechWave */
+.why-choose{
+  background-color: #412567;
+}
+
+.why-choose h2{
+  text-align: center;
+  padding-top: 126px;
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.choose-techwave{
+  display: grid;
+  background-color: #230E3D;
+  gap: 30px;
+  grid-template-areas:
+  "container-one  container-two container-two container-two" 
+  
+  ;
 }
