@@ -39,9 +39,9 @@
   font-size: 3rem;
   font-weight: 700;
 }
-
-
-
+.logo-ham{
+  display: none;
+}
 
 .btn{
   width: 135px;
@@ -64,6 +64,24 @@
   padding: 60px 0px;
   width: 100%;
 }
+.new{
+  
+  text-align: center;
+  padding-left: 180px;
+  background-position: center;
+}
+.new-btn{
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 70px;
+  height: 35px;
+  border-radius: 20px;
+  background-color: #00FF88;
+  border: none;
+  
+  
+}
+
 
 .hero-img{
   position: relative;
@@ -332,14 +350,20 @@ iframe{
 
  }
 
- /* Media Quary Section 576 */
+ /* Media Quary Section 576 responsive */
 
  @media screen and (max-width: 576px) {
   /* navbar */
+body{
+  background-color: #230E3D;
+}
   .nav-item {
     flex-direction: column;
     padding: 16px 20px;
     gap: 15px;
+  }
+  .menu{
+    display: none;
   }
 
   .nav-link {
@@ -348,11 +372,19 @@ iframe{
   }
 
   .logo {
+    
+    width: 400px;
+    text-align: start;
     font-size: 2rem;
+  }
+  .logo-ham{
+    padding-left: 350px;
+    display: block;
+    
   }
 
   .btn {
-    width: 100%;
+    display: none;
   }
 
   /* hero section */
@@ -448,6 +480,7 @@ iframe{
   .host-part {
     flex-direction: column;
     text-align: center;
+    
   }
 
   .host-img {
@@ -470,6 +503,7 @@ iframe{
   }
 
   .footer-icon {
+    
     padding-top: 120px;
   }
 
